@@ -31,11 +31,9 @@ const FooterThree = ({
 
   return (
     <footer
-      className={`footer-area ${
-        backgroundColorClass ? backgroundColorClass : ""
-      } ${spaceTopClass ? spaceTopClass : ""} ${
-        spaceBottomClass ? spaceBottomClass : ""
-      }`}
+      className={`footer-area ${backgroundColorClass ? backgroundColorClass : ""
+        } ${spaceTopClass ? spaceTopClass : ""} ${spaceBottomClass ? spaceBottomClass : ""
+        }`}
     >
       <div className="container">
         <div className="footer-border pt-100">
@@ -43,7 +41,7 @@ const FooterThree = ({
             <div className="col-lg-2 col-sm-4">
               {/* footer copyright */}
               <FooterCopyright
-                footerLogo="/assets/img/logo/logo.svg"
+                footerLogo="/assets/img/logo/achuth.png"
                 spaceBottomClass="mb-30"
               />
             </div>

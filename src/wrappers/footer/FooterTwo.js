@@ -34,25 +34,20 @@ const FooterTwo = ({
   };
   return (
     <footer
-      className={`footer-area ${
-        backgroundColorClass ? backgroundColorClass : ""
-      } ${spaceLeftClass ? spaceLeftClass : ""} ${
-        spaceRightClass ? spaceRightClass : ""
-      } ${backgroundImage ? "bg-img" : ""}`}
+      className={`footer-area ${backgroundColorClass ? backgroundColorClass : ""
+        } ${spaceLeftClass ? spaceLeftClass : ""} ${spaceRightClass ? spaceRightClass : ""
+        } ${backgroundImage ? "bg-img" : ""}`}
       style={{
-        backgroundImage: ` ${
-          backgroundImage
+        backgroundImage: ` ${backgroundImage
             ? `url(${process.env.PUBLIC_URL + backgroundImage})`
             : `url()`
-        }`
+          }`
       }}
     >
       <div
-        className={`footer-top text-center ${
-          footerTopBackgroundColorClass ? footerTopBackgroundColorClass : ""
-        } ${footerTopSpaceTopClass ? footerTopSpaceTopClass : ""}  ${
-          footerTopSpaceBottomClass ? footerTopSpaceBottomClass : ""
-        }`}
+        className={`footer-top text-center ${footerTopBackgroundColorClass ? footerTopBackgroundColorClass : ""
+          } ${footerTopSpaceTopClass ? footerTopSpaceTopClass : ""}  ${footerTopSpaceBottomClass ? footerTopSpaceBottomClass : ""
+          }`}
       >
         <div className="container">
           <div className="footer-logo">
@@ -61,7 +56,7 @@ const FooterTwo = ({
                 alt=""
                 src={
                   process.env.PUBLIC_URL +
-                  `${footerLogo ? footerLogo : "/assets/img/logo/logo.svg"}`
+                  `${footerLogo ? footerLogo : "/assets/img/logo/achuth.png"}`
                 }
               />
             </Link>
@@ -105,9 +100,8 @@ const FooterTwo = ({
       <div className="footer-bottom text-center">
         <div className="container">
           <div
-            className={`copyright-2 ${
-              copyrightColorClass ? copyrightColorClass : ""
-            }`}
+            className={`copyright-2 ${copyrightColorClass ? copyrightColorClass : ""
+              }`}
           >
             <p>
               © 2020{" "}

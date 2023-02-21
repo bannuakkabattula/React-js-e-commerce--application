@@ -49,16 +49,15 @@ const HeaderThree = ({
         </div>
       </div>
       <div
-        className={`header-bottom sticky-bar header-res-padding header-padding-2 ${
-          scroll > headerTop ? "stick" : ""
-        }`}
+        className={`header-bottom sticky-bar header-res-padding header-padding-2 ${scroll > headerTop ? "stick" : ""
+          }`}
       >
         <div className="container">
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-6">
               <div className="center-menu-logo text-left text-lg-center">
                 {/* header logo */}
-                <Logo imageUrl="/assets/img/logo/logo.svg" logoClass="logo" />
+                <Logo imageUrl="/assets/img/logo/achuth.png" logoClass="logo" />
               </div>
             </div>
             <div className="col-6 d-block d-lg-none">

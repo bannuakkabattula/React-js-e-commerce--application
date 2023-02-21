@@ -23,9 +23,8 @@ const HeaderFour = () => {
 
   return (
     <header
-      className={`header-area sticky-bar header-padding-3 header-res-padding clearfix transparent-bar ${
-        scroll > headerTop ? "stick" : ""
-      }`}
+      className={`header-area sticky-bar header-padding-3 header-res-padding clearfix transparent-bar ${scroll > headerTop ? "stick" : ""
+        }`}
     >
       <div className="container-fluid">
         <div className="row">
@@ -39,7 +38,7 @@ const HeaderFour = () => {
                 <img alt="" src="assets/img/logo/logo-2.png" />
               </Link>
               <Link className="sticky-block" to={process.env.PUBLIC_URL + "/"}>
-                <img alt="" src="assets/img/logo/logo.svg" />
+                <img alt="" src="assets/img/logo/achuth.png" />
               </Link>
             </div>
           </div>
